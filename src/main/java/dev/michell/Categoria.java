@@ -1,3 +1,5 @@
+package dev.michell;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,12 +33,12 @@ public class Categoria {
 
     public void eliminarInscripcion(Integer numeroInscripcion) {
         inscripciones.remove(numeroInscripcion);
-        System.out.printf("Inscripcion %d eliminada\n", numeroInscripcion);
+        System.out.printf("dev.michell.Inscripcion %d eliminada\n", numeroInscripcion);
     }
 
     public void mostrarInscripciones() {
         for (Map.Entry<Integer, Inscripcion> inscripcion : inscripciones.entrySet()) {
-            System.out.printf("Inscripcion: %s\n", inscripcion.getValue());
+            System.out.printf("dev.michell.Inscripcion: %s\n", inscripcion.getValue());
         }
     }
 

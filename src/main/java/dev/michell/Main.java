@@ -1,3 +1,5 @@
+package dev.michell;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -45,7 +47,7 @@ public class Main {
 
         categoriaChica.mostrarInscripciones();
 
-        System.out.println("Monto Total Categoria Chica: " + categoriaChica.calcularMontoTotal());
+        System.out.println("Monto Total dev.michell.Categoria Chica: " + categoriaChica.calcularMontoTotal());
 
         // Calculamos el total de la carrera
         Map<Categoria, Double> categorias = new HashMap<>();

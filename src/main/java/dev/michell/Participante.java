@@ -1,3 +1,5 @@
+package dev.michell;
+
 public class Participante {
     private int numeroParticipante;
     private long dni;

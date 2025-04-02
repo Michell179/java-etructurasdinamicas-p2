@@ -1,3 +1,5 @@
+package dev.michell;
+
 public class Inscripcion {
 
     private int numero;
@@ -35,6 +37,6 @@ public class Inscripcion {
 
     @Override
     public String toString() {
-        return "Numero: " + numero + ", Participante: " + participante + ", Monto: " + monto;
+        return "Numero: " + numero + ", dev.michell.Participante: " + participante + ", Monto: " + monto;
     }
 }
